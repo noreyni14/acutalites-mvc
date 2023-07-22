@@ -1,0 +1,65 @@
+/* Header */
+#entete {
+	font-size: 2;
+	text-align: center;
+	font-family: "Times new roman" sans-serif;
+	text-transform: uppercase;
+	border: 2px solid #333;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	background-color: #87CEFA;	padding: 10px;
+  }
+  
+  /* Content */
+  #contenu {
+	float: left;
+	width: 70%;
+	text-align: justify;
+  }
+  
+  /* Menu */
+  #menu {
+	margin-left: 70%;
+	text-align: center;
+	
+  }
+  
+  #menu li {
+	display: block;
+	list-style-type: none;
+	margin: 6px;
+	font-size: large;
+	font-weight: bold;
+  }
+  #menu li a {
+	text-decoration: none;
+	color: #190756;
+	padding: 5px 10px;
+	border-radius: 5px;
+  }
+  
+  #menu li a:hover {
+	background-color: #87CEFA;
+	color: #380d93;
+	/* Add transition for smoother hover effect */
+	transition: background-color 0.2s ease;
+  }
+  
+  #menu h1 {
+	margin-top: 0;
+	padding-top: 0;
+	font-family: "Time new roman", sans-serif;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: bold;
+  }
+  
+  /* Article */
+  .article {
+	margin: 20px;
+	padding: 20px;
+	border: 2px solid #555;
+	background-color: rgba(0, 255, 0, 0.2);
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  }
